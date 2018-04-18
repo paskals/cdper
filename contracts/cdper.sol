@@ -157,6 +157,7 @@ contract CDPer is DSStop, DSMath {
     // DSToken public dai = DSToken(0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359);  // Stablecoin
     // DSToken public skr = DSToken(0xf53AD2c6851052A81B42133467480961B2321C09);  // Abstracted collateral - PETH
     // WETH public gem = WETH(0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2);  // Underlying collateral - WETH
+    // DSToken public gov = DSToken(0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2);  // MKR Token
     // DSValue public feed = DSValue(0x729D19f657BD0614b4985Cf1D82531c67569197B);  // Price feed
     // OtcInterface public otc = OtcInterface(0x14FBCA95be7e99C15Cc2996c6C9d841e54B79425);
 
