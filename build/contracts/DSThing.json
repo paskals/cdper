@@ -129,14 +129,14 @@
     "absolutePath": "/home/paskal/cdper/contracts/lib/ds-thing/thing.sol",
     "exportedSymbols": {
       "DSThing": [
-        2499
+        2638
       ]
     },
-    "id": 2500,
+    "id": 2639,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2475,
+        "id": 2614,
         "literals": [
           "solidity",
           "^",
@@ -149,10 +149,10 @@
       {
         "absolutePath": "/home/paskal/cdper/contracts/lib/ds-auth/auth.sol",
         "file": "../ds-auth/auth.sol",
-        "id": 2476,
+        "id": 2615,
         "nodeType": "ImportDirective",
-        "scope": 2500,
-        "sourceUnit": 1864,
+        "scope": 2639,
+        "sourceUnit": 2003,
         "src": "779:29:7",
         "symbolAliases": [],
         "unitAlias": ""
@@ -160,10 +160,10 @@
       {
         "absolutePath": "/home/paskal/cdper/contracts/lib/ds-note/note.sol",
         "file": "../ds-note/note.sol",
-        "id": 2477,
+        "id": 2616,
         "nodeType": "ImportDirective",
-        "scope": 2500,
-        "sourceUnit": 2206,
+        "scope": 2639,
+        "sourceUnit": 2345,
         "src": "809:29:7",
         "symbolAliases": [],
         "unitAlias": ""
@@ -171,10 +171,10 @@
       {
         "absolutePath": "/home/paskal/cdper/contracts/lib/ds-math/math.sol",
         "file": "../ds-math/math.sol",
-        "id": 2478,
+        "id": 2617,
         "nodeType": "ImportDirective",
-        "scope": 2500,
-        "sourceUnit": 2165,
+        "scope": 2639,
+        "sourceUnit": 2304,
         "src": "839:29:7",
         "symbolAliases": [],
         "unitAlias": ""
@@ -185,17 +185,17 @@
             "arguments": [],
             "baseName": {
               "contractScope": null,
-              "id": 2479,
+              "id": 2618,
               "name": "DSAuth",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1863,
+              "referencedDeclaration": 2002,
               "src": "890:6:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DSAuth_$1863",
+                "typeIdentifier": "t_contract$_DSAuth_$2002",
                 "typeString": "contract DSAuth"
               }
             },
-            "id": 2480,
+            "id": 2619,
             "nodeType": "InheritanceSpecifier",
             "src": "890:6:7"
           },
@@ -203,17 +203,17 @@
             "arguments": [],
             "baseName": {
               "contractScope": null,
-              "id": 2481,
+              "id": 2620,
               "name": "DSNote",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2205,
+              "referencedDeclaration": 2344,
               "src": "898:6:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DSNote_$2205",
+                "typeIdentifier": "t_contract$_DSNote_$2344",
                 "typeString": "contract DSNote"
               }
             },
-            "id": 2482,
+            "id": 2621,
             "nodeType": "InheritanceSpecifier",
             "src": "898:6:7"
           },
@@ -221,44 +221,44 @@
             "arguments": [],
             "baseName": {
               "contractScope": null,
-              "id": 2483,
+              "id": 2622,
               "name": "DSMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2164,
+              "referencedDeclaration": 2303,
               "src": "906:6:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DSMath_$2164",
+                "typeIdentifier": "t_contract$_DSMath_$2303",
                 "typeString": "contract DSMath"
               }
             },
-            "id": 2484,
+            "id": 2623,
             "nodeType": "InheritanceSpecifier",
             "src": "906:6:7"
           }
         ],
         "contractDependencies": [
-          1754,
-          1863,
-          2164,
-          2205
+          1893,
+          2002,
+          2303,
+          2344
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2499,
+        "id": 2638,
         "linearizedBaseContracts": [
-          2499,
-          2164,
-          2205,
-          1863,
-          1754
+          2638,
+          2303,
+          2344,
+          2002,
+          1893
         ],
         "name": "DSThing",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2497,
+              "id": 2636,
               "nodeType": "Block",
               "src": "972:44:7",
               "statements": [
@@ -271,11 +271,11 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 2493,
+                            "id": 2632,
                             "name": "s",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2486,
+                            "referencedDeclaration": 2625,
                             "src": "1006:1:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_memory_ptr",
@@ -290,18 +290,18 @@
                               "typeString": "string memory"
                             }
                           ],
-                          "id": 2492,
+                          "id": 2631,
                           "name": "keccak256",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 3033,
+                          "referencedDeclaration": 3172,
                           "src": "996:9:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
                             "typeString": "function () pure returns (bytes32)"
                           }
                         },
-                        "id": 2494,
+                        "id": 2633,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -323,7 +323,7 @@
                           "typeString": "bytes32"
                         }
                       ],
-                      "id": 2491,
+                      "id": 2630,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -336,7 +336,7 @@
                       },
                       "typeName": "bytes4"
                     },
-                    "id": 2495,
+                    "id": 2634,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -350,15 +350,15 @@
                       "typeString": "bytes4"
                     }
                   },
-                  "functionReturnParameters": 2490,
-                  "id": 2496,
+                  "functionReturnParameters": 2629,
+                  "id": 2635,
                   "nodeType": "Return",
                   "src": "982:27:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 2498,
+            "id": 2637,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -366,15 +366,15 @@
             "name": "S",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2487,
+              "id": 2626,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2486,
+                  "id": 2625,
                   "name": "s",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2498,
+                  "scope": 2637,
                   "src": "931:8:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -383,7 +383,7 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 2485,
+                    "id": 2624,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "931:6:7",
@@ -400,15 +400,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2490,
+              "id": 2629,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2489,
+                  "id": 2628,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2498,
+                  "scope": 2637,
                   "src": "964:6:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -417,7 +417,7 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 2488,
+                    "id": 2627,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
                     "src": "964:6:7",
@@ -432,14 +432,14 @@
               ],
               "src": "963:8:7"
             },
-            "scope": 2499,
+            "scope": 2638,
             "src": "920:96:7",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 2500,
+        "scope": 2639,
         "src": "870:149:7"
       }
     ],
@@ -449,14 +449,14 @@
     "absolutePath": "/home/paskal/cdper/contracts/lib/ds-thing/thing.sol",
     "exportedSymbols": {
       "DSThing": [
-        2499
+        2638
       ]
     },
-    "id": 2500,
+    "id": 2639,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2475,
+        "id": 2614,
         "literals": [
           "solidity",
           "^",
@@ -469,10 +469,10 @@
       {
         "absolutePath": "/home/paskal/cdper/contracts/lib/ds-auth/auth.sol",
         "file": "../ds-auth/auth.sol",
-        "id": 2476,
+        "id": 2615,
         "nodeType": "ImportDirective",
-        "scope": 2500,
-        "sourceUnit": 1864,
+        "scope": 2639,
+        "sourceUnit": 2003,
         "src": "779:29:7",
         "symbolAliases": [],
         "unitAlias": ""
@@ -480,10 +480,10 @@
       {
         "absolutePath": "/home/paskal/cdper/contracts/lib/ds-note/note.sol",
         "file": "../ds-note/note.sol",
-        "id": 2477,
+        "id": 2616,
         "nodeType": "ImportDirective",
-        "scope": 2500,
-        "sourceUnit": 2206,
+        "scope": 2639,
+        "sourceUnit": 2345,
         "src": "809:29:7",
         "symbolAliases": [],
         "unitAlias": ""
@@ -491,10 +491,10 @@
       {
         "absolutePath": "/home/paskal/cdper/contracts/lib/ds-math/math.sol",
         "file": "../ds-math/math.sol",
-        "id": 2478,
+        "id": 2617,
         "nodeType": "ImportDirective",
-        "scope": 2500,
-        "sourceUnit": 2165,
+        "scope": 2639,
+        "sourceUnit": 2304,
         "src": "839:29:7",
         "symbolAliases": [],
         "unitAlias": ""
@@ -505,17 +505,17 @@
             "arguments": [],
             "baseName": {
               "contractScope": null,
-              "id": 2479,
+              "id": 2618,
               "name": "DSAuth",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1863,
+              "referencedDeclaration": 2002,
               "src": "890:6:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DSAuth_$1863",
+                "typeIdentifier": "t_contract$_DSAuth_$2002",
                 "typeString": "contract DSAuth"
               }
             },
-            "id": 2480,
+            "id": 2619,
             "nodeType": "InheritanceSpecifier",
             "src": "890:6:7"
           },
@@ -523,17 +523,17 @@
             "arguments": [],
             "baseName": {
               "contractScope": null,
-              "id": 2481,
+              "id": 2620,
               "name": "DSNote",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2205,
+              "referencedDeclaration": 2344,
               "src": "898:6:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DSNote_$2205",
+                "typeIdentifier": "t_contract$_DSNote_$2344",
                 "typeString": "contract DSNote"
               }
             },
-            "id": 2482,
+            "id": 2621,
             "nodeType": "InheritanceSpecifier",
             "src": "898:6:7"
           },
@@ -541,44 +541,44 @@
             "arguments": [],
             "baseName": {
               "contractScope": null,
-              "id": 2483,
+              "id": 2622,
               "name": "DSMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2164,
+              "referencedDeclaration": 2303,
               "src": "906:6:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DSMath_$2164",
+                "typeIdentifier": "t_contract$_DSMath_$2303",
                 "typeString": "contract DSMath"
               }
             },
-            "id": 2484,
+            "id": 2623,
             "nodeType": "InheritanceSpecifier",
             "src": "906:6:7"
           }
         ],
         "contractDependencies": [
-          1754,
-          1863,
-          2164,
-          2205
+          1893,
+          2002,
+          2303,
+          2344
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2499,
+        "id": 2638,
         "linearizedBaseContracts": [
-          2499,
-          2164,
-          2205,
-          1863,
-          1754
+          2638,
+          2303,
+          2344,
+          2002,
+          1893
         ],
         "name": "DSThing",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2497,
+              "id": 2636,
               "nodeType": "Block",
               "src": "972:44:7",
               "statements": [
@@ -591,11 +591,11 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 2493,
+                            "id": 2632,
                             "name": "s",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2486,
+                            "referencedDeclaration": 2625,
                             "src": "1006:1:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_memory_ptr",
@@ -610,18 +610,18 @@
                               "typeString": "string memory"
                             }
                           ],
-                          "id": 2492,
+                          "id": 2631,
                           "name": "keccak256",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 3033,
+                          "referencedDeclaration": 3172,
                           "src": "996:9:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
                             "typeString": "function () pure returns (bytes32)"
                           }
                         },
-                        "id": 2494,
+                        "id": 2633,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -643,7 +643,7 @@
                           "typeString": "bytes32"
                         }
                       ],
-                      "id": 2491,
+                      "id": 2630,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -656,7 +656,7 @@
                       },
                       "typeName": "bytes4"
                     },
-                    "id": 2495,
+                    "id": 2634,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -670,15 +670,15 @@
                       "typeString": "bytes4"
                     }
                   },
-                  "functionReturnParameters": 2490,
-                  "id": 2496,
+                  "functionReturnParameters": 2629,
+                  "id": 2635,
                   "nodeType": "Return",
                   "src": "982:27:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 2498,
+            "id": 2637,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -686,15 +686,15 @@
             "name": "S",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2487,
+              "id": 2626,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2486,
+                  "id": 2625,
                   "name": "s",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2498,
+                  "scope": 2637,
                   "src": "931:8:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -703,7 +703,7 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 2485,
+                    "id": 2624,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "931:6:7",
@@ -720,15 +720,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2490,
+              "id": 2629,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2489,
+                  "id": 2628,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2498,
+                  "scope": 2637,
                   "src": "964:6:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -737,7 +737,7 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 2488,
+                    "id": 2627,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
                     "src": "964:6:7",
@@ -752,14 +752,14 @@
               ],
               "src": "963:8:7"
             },
-            "scope": 2499,
+            "scope": 2638,
             "src": "920:96:7",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 2500,
+        "scope": 2639,
         "src": "870:149:7"
       }
     ],
@@ -771,5 +771,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-18T02:07:49.810Z"
+  "updatedAt": "2018-04-18T11:56:24.886Z"
 }

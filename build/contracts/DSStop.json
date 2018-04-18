@@ -161,14 +161,14 @@
     "absolutePath": "/home/paskal/cdper/contracts/lib/ds-stop/stop.sol",
     "exportedSymbols": {
       "DSStop": [
-        2473
+        2612
       ]
     },
-    "id": 2474,
+    "id": 2613,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2431,
+        "id": 2570,
         "literals": [
           "solidity",
           "^",
@@ -181,10 +181,10 @@
       {
         "absolutePath": "/home/paskal/cdper/contracts/lib/ds-auth/auth.sol",
         "file": "../ds-auth/auth.sol",
-        "id": 2432,
+        "id": 2571,
         "nodeType": "ImportDirective",
-        "scope": 2474,
-        "sourceUnit": 1864,
+        "scope": 2613,
+        "sourceUnit": 2003,
         "src": "762:29:6",
         "symbolAliases": [],
         "unitAlias": ""
@@ -192,10 +192,10 @@
       {
         "absolutePath": "/home/paskal/cdper/contracts/lib/ds-note/note.sol",
         "file": "../ds-note/note.sol",
-        "id": 2433,
+        "id": 2572,
         "nodeType": "ImportDirective",
-        "scope": 2474,
-        "sourceUnit": 2206,
+        "scope": 2613,
+        "sourceUnit": 2345,
         "src": "792:29:6",
         "symbolAliases": [],
         "unitAlias": ""
@@ -206,17 +206,17 @@
             "arguments": [],
             "baseName": {
               "contractScope": null,
-              "id": 2434,
+              "id": 2573,
               "name": "DSNote",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2205,
+              "referencedDeclaration": 2344,
               "src": "842:6:6",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DSNote_$2205",
+                "typeIdentifier": "t_contract$_DSNote_$2344",
                 "typeString": "contract DSNote"
               }
             },
-            "id": 2435,
+            "id": 2574,
             "nodeType": "InheritanceSpecifier",
             "src": "842:6:6"
           },
@@ -224,45 +224,45 @@
             "arguments": [],
             "baseName": {
               "contractScope": null,
-              "id": 2436,
+              "id": 2575,
               "name": "DSAuth",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1863,
+              "referencedDeclaration": 2002,
               "src": "850:6:6",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DSAuth_$1863",
+                "typeIdentifier": "t_contract$_DSAuth_$2002",
                 "typeString": "contract DSAuth"
               }
             },
-            "id": 2437,
+            "id": 2576,
             "nodeType": "InheritanceSpecifier",
             "src": "850:6:6"
           }
         ],
         "contractDependencies": [
-          1754,
-          1863,
-          2205
+          1893,
+          2002,
+          2344
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2473,
+        "id": 2612,
         "linearizedBaseContracts": [
-          2473,
-          1863,
-          1754,
-          2205
+          2612,
+          2002,
+          1893,
+          2344
         ],
         "name": "DSStop",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 2439,
+            "id": 2578,
             "name": "stopped",
             "nodeType": "VariableDeclaration",
-            "scope": 2473,
+            "scope": 2612,
             "src": "864:19:6",
             "stateVariable": true,
             "storageLocation": "default",
@@ -271,7 +271,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 2438,
+              "id": 2577,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "864:4:6",
@@ -285,7 +285,7 @@
           },
           {
             "body": {
-              "id": 2447,
+              "id": 2586,
               "nodeType": "Block",
               "src": "909:45:6",
               "statements": [
@@ -295,7 +295,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2443,
+                        "id": 2582,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -306,11 +306,11 @@
                         "src": "927:8:6",
                         "subExpression": {
                           "argumentTypes": null,
-                          "id": 2442,
+                          "id": 2581,
                           "name": "stopped",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2439,
+                          "referencedDeclaration": 2578,
                           "src": "928:7:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -330,18 +330,18 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 2441,
+                      "id": 2580,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3042,
+                      "referencedDeclaration": 3181,
                       "src": "919:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 2444,
+                    "id": 2583,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -355,23 +355,23 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2445,
+                  "id": 2584,
                   "nodeType": "ExpressionStatement",
                   "src": "919:17:6"
                 },
                 {
-                  "id": 2446,
+                  "id": 2585,
                   "nodeType": "PlaceholderStatement",
                   "src": "946:1:6"
                 }
               ]
             },
             "documentation": null,
-            "id": 2448,
+            "id": 2587,
             "name": "stoppable",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 2440,
+              "id": 2579,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "909:0:6"
@@ -381,25 +381,25 @@
           },
           {
             "body": {
-              "id": 2459,
+              "id": 2598,
               "nodeType": "Block",
               "src": "992:31:6",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2457,
+                    "id": 2596,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2455,
+                      "id": 2594,
                       "name": "stopped",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2439,
+                      "referencedDeclaration": 2578,
                       "src": "1002:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -411,7 +411,7 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "74727565",
-                      "id": 2456,
+                      "id": 2595,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -432,28 +432,28 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 2458,
+                  "id": 2597,
                   "nodeType": "ExpressionStatement",
                   "src": "1002:14:6"
                 }
               ]
             },
             "documentation": null,
-            "id": 2460,
+            "id": 2599,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
             "modifiers": [
               {
                 "arguments": [],
-                "id": 2451,
+                "id": 2590,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2450,
+                  "id": 2589,
                   "name": "auth",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1819,
+                  "referencedDeclaration": 1958,
                   "src": "982:4:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -465,14 +465,14 @@
               },
               {
                 "arguments": [],
-                "id": 2453,
+                "id": 2592,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2452,
+                  "id": 2591,
                   "name": "note",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2204,
+                  "referencedDeclaration": 2343,
                   "src": "987:4:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -486,19 +486,19 @@
             "name": "stop",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2449,
+              "id": 2588,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "972:2:6"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2454,
+              "id": 2593,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "992:0:6"
             },
-            "scope": 2473,
+            "scope": 2612,
             "src": "959:64:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -506,25 +506,25 @@
           },
           {
             "body": {
-              "id": 2471,
+              "id": 2610,
               "nodeType": "Block",
               "src": "1062:32:6",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2469,
+                    "id": 2608,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2467,
+                      "id": 2606,
                       "name": "stopped",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2439,
+                      "referencedDeclaration": 2578,
                       "src": "1072:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -536,7 +536,7 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "66616c7365",
-                      "id": 2468,
+                      "id": 2607,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -557,28 +557,28 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 2470,
+                  "id": 2609,
                   "nodeType": "ExpressionStatement",
                   "src": "1072:15:6"
                 }
               ]
             },
             "documentation": null,
-            "id": 2472,
+            "id": 2611,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
             "modifiers": [
               {
                 "arguments": [],
-                "id": 2463,
+                "id": 2602,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2462,
+                  "id": 2601,
                   "name": "auth",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1819,
+                  "referencedDeclaration": 1958,
                   "src": "1052:4:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -590,14 +590,14 @@
               },
               {
                 "arguments": [],
-                "id": 2465,
+                "id": 2604,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2464,
+                  "id": 2603,
                   "name": "note",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2204,
+                  "referencedDeclaration": 2343,
                   "src": "1057:4:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -611,26 +611,26 @@
             "name": "start",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2461,
+              "id": 2600,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1042:2:6"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2466,
+              "id": 2605,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1062:0:6"
             },
-            "scope": 2473,
+            "scope": 2612,
             "src": "1028:66:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2474,
+        "scope": 2613,
         "src": "823:274:6"
       }
     ],
@@ -640,14 +640,14 @@
     "absolutePath": "/home/paskal/cdper/contracts/lib/ds-stop/stop.sol",
     "exportedSymbols": {
       "DSStop": [
-        2473
+        2612
       ]
     },
-    "id": 2474,
+    "id": 2613,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2431,
+        "id": 2570,
         "literals": [
           "solidity",
           "^",
@@ -660,10 +660,10 @@
       {
         "absolutePath": "/home/paskal/cdper/contracts/lib/ds-auth/auth.sol",
         "file": "../ds-auth/auth.sol",
-        "id": 2432,
+        "id": 2571,
         "nodeType": "ImportDirective",
-        "scope": 2474,
-        "sourceUnit": 1864,
+        "scope": 2613,
+        "sourceUnit": 2003,
         "src": "762:29:6",
         "symbolAliases": [],
         "unitAlias": ""
@@ -671,10 +671,10 @@
       {
         "absolutePath": "/home/paskal/cdper/contracts/lib/ds-note/note.sol",
         "file": "../ds-note/note.sol",
-        "id": 2433,
+        "id": 2572,
         "nodeType": "ImportDirective",
-        "scope": 2474,
-        "sourceUnit": 2206,
+        "scope": 2613,
+        "sourceUnit": 2345,
         "src": "792:29:6",
         "symbolAliases": [],
         "unitAlias": ""
@@ -685,17 +685,17 @@
             "arguments": [],
             "baseName": {
               "contractScope": null,
-              "id": 2434,
+              "id": 2573,
               "name": "DSNote",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2205,
+              "referencedDeclaration": 2344,
               "src": "842:6:6",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DSNote_$2205",
+                "typeIdentifier": "t_contract$_DSNote_$2344",
                 "typeString": "contract DSNote"
               }
             },
-            "id": 2435,
+            "id": 2574,
             "nodeType": "InheritanceSpecifier",
             "src": "842:6:6"
           },
@@ -703,45 +703,45 @@
             "arguments": [],
             "baseName": {
               "contractScope": null,
-              "id": 2436,
+              "id": 2575,
               "name": "DSAuth",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1863,
+              "referencedDeclaration": 2002,
               "src": "850:6:6",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DSAuth_$1863",
+                "typeIdentifier": "t_contract$_DSAuth_$2002",
                 "typeString": "contract DSAuth"
               }
             },
-            "id": 2437,
+            "id": 2576,
             "nodeType": "InheritanceSpecifier",
             "src": "850:6:6"
           }
         ],
         "contractDependencies": [
-          1754,
-          1863,
-          2205
+          1893,
+          2002,
+          2344
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2473,
+        "id": 2612,
         "linearizedBaseContracts": [
-          2473,
-          1863,
-          1754,
-          2205
+          2612,
+          2002,
+          1893,
+          2344
         ],
         "name": "DSStop",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 2439,
+            "id": 2578,
             "name": "stopped",
             "nodeType": "VariableDeclaration",
-            "scope": 2473,
+            "scope": 2612,
             "src": "864:19:6",
             "stateVariable": true,
             "storageLocation": "default",
@@ -750,7 +750,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 2438,
+              "id": 2577,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "864:4:6",
@@ -764,7 +764,7 @@
           },
           {
             "body": {
-              "id": 2447,
+              "id": 2586,
               "nodeType": "Block",
               "src": "909:45:6",
               "statements": [
@@ -774,7 +774,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2443,
+                        "id": 2582,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -785,11 +785,11 @@
                         "src": "927:8:6",
                         "subExpression": {
                           "argumentTypes": null,
-                          "id": 2442,
+                          "id": 2581,
                           "name": "stopped",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2439,
+                          "referencedDeclaration": 2578,
                           "src": "928:7:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -809,18 +809,18 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 2441,
+                      "id": 2580,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3042,
+                      "referencedDeclaration": 3181,
                       "src": "919:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 2444,
+                    "id": 2583,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -834,23 +834,23 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2445,
+                  "id": 2584,
                   "nodeType": "ExpressionStatement",
                   "src": "919:17:6"
                 },
                 {
-                  "id": 2446,
+                  "id": 2585,
                   "nodeType": "PlaceholderStatement",
                   "src": "946:1:6"
                 }
               ]
             },
             "documentation": null,
-            "id": 2448,
+            "id": 2587,
             "name": "stoppable",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 2440,
+              "id": 2579,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "909:0:6"
@@ -860,25 +860,25 @@
           },
           {
             "body": {
-              "id": 2459,
+              "id": 2598,
               "nodeType": "Block",
               "src": "992:31:6",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2457,
+                    "id": 2596,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2455,
+                      "id": 2594,
                       "name": "stopped",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2439,
+                      "referencedDeclaration": 2578,
                       "src": "1002:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -890,7 +890,7 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "74727565",
-                      "id": 2456,
+                      "id": 2595,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -911,28 +911,28 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 2458,
+                  "id": 2597,
                   "nodeType": "ExpressionStatement",
                   "src": "1002:14:6"
                 }
               ]
             },
             "documentation": null,
-            "id": 2460,
+            "id": 2599,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
             "modifiers": [
               {
                 "arguments": [],
-                "id": 2451,
+                "id": 2590,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2450,
+                  "id": 2589,
                   "name": "auth",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1819,
+                  "referencedDeclaration": 1958,
                   "src": "982:4:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -944,14 +944,14 @@
               },
               {
                 "arguments": [],
-                "id": 2453,
+                "id": 2592,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2452,
+                  "id": 2591,
                   "name": "note",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2204,
+                  "referencedDeclaration": 2343,
                   "src": "987:4:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -965,19 +965,19 @@
             "name": "stop",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2449,
+              "id": 2588,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "972:2:6"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2454,
+              "id": 2593,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "992:0:6"
             },
-            "scope": 2473,
+            "scope": 2612,
             "src": "959:64:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -985,25 +985,25 @@
           },
           {
             "body": {
-              "id": 2471,
+              "id": 2610,
               "nodeType": "Block",
               "src": "1062:32:6",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2469,
+                    "id": 2608,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2467,
+                      "id": 2606,
                       "name": "stopped",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2439,
+                      "referencedDeclaration": 2578,
                       "src": "1072:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -1015,7 +1015,7 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "66616c7365",
-                      "id": 2468,
+                      "id": 2607,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -1036,28 +1036,28 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 2470,
+                  "id": 2609,
                   "nodeType": "ExpressionStatement",
                   "src": "1072:15:6"
                 }
               ]
             },
             "documentation": null,
-            "id": 2472,
+            "id": 2611,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
             "modifiers": [
               {
                 "arguments": [],
-                "id": 2463,
+                "id": 2602,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2462,
+                  "id": 2601,
                   "name": "auth",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1819,
+                  "referencedDeclaration": 1958,
                   "src": "1052:4:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -1069,14 +1069,14 @@
               },
               {
                 "arguments": [],
-                "id": 2465,
+                "id": 2604,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2464,
+                  "id": 2603,
                   "name": "note",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2204,
+                  "referencedDeclaration": 2343,
                   "src": "1057:4:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -1090,26 +1090,26 @@
             "name": "start",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2461,
+              "id": 2600,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1042:2:6"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2466,
+              "id": 2605,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1062:0:6"
             },
-            "scope": 2473,
+            "scope": 2612,
             "src": "1028:66:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2474,
+        "scope": 2613,
         "src": "823:274:6"
       }
     ],
@@ -1121,5 +1121,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-18T02:07:49.810Z"
+  "updatedAt": "2018-04-18T11:56:24.866Z"
 }
